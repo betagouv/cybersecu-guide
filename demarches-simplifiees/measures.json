@@ -1,0 +1,31 @@
+
+{
+    "are_commits_signed": false,
+    "https_status": {
+        "is_enabled": true,
+        "is_redirected_server_side": true,
+        "is_redirected_client_side": true
+    },
+    "credentials_leaking": {
+        "scanner_tool": "github"
+    },
+    "package_versions": {
+        "tool": "dependabot",
+        "current_outdated_packages": 0
+    },
+    "bug_bounty": true,
+    "web_flaws": {
+        "input_sanitizer": true,
+        "csp": "?",
+        "are_iframe_limited": true,
+        "scan_owasp": "?"
+    },
+    "infra_flaws": {
+        "waf": "ovh"
+    },
+    "monitoring_tools": {
+        "bugs": "sentry",
+        "availability": "updown.io"
+    },
+    "homologation": "?"
+}
